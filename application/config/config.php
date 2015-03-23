@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
+//$config['base_url']	= 'http://localhost/ngbtcollege_web/';
 $config['base_url']	= 'http://gipl-ntb033/ngbtcollege_web/';
-//$config['base_url']	= 'http://192.168.1.100/ngbtcollege_web/';
 
 /*
 |--------------------------------------------------------------------------
@@ -28,6 +28,7 @@ $config['base_url']	= 'http://gipl-ntb033/ngbtcollege_web/';
 |
 */
 $config['index_page'] = '';
+//$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

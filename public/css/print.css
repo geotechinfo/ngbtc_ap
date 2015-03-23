@@ -1,0 +1,6 @@
+.logo{display: inline-block;width: 25%;float: left;}
+.app_no{display: none}
+.tbl{display: block;border-bottom:2px #444 solid }
+.appNumber{display: none;}
+pre{border:0px #fff solid;}
+#application{display: block;}

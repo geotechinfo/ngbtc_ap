@@ -1,0 +1,115 @@
+/*Bootstrap reset*/
+a:focus,input:focus,button:focus {outline: none;}
+a:hover{text-decoration: none;}
+label{font-weight:normal;margin:0;display: block;margin-top:10px;}
+.textCenter{text-align: center;}.textLeft{text-align: left;}.textRight{text-align: right;}
+.noBorder{border:0;}
+.pad10{padding:10px;}
+.noMargin{margin:0 !important;}
+.noPadding{padding:0;}
+.left{float:left;}.right{float:right;}
+.borderBottom{border-bottom: 1px #AAA solid;}
+.borderRadius{border-radius:5px;}
+.borderRounded{border-radius:500px;}
+.fullWidth{width:100%;}
+.left{float:left;}.right{float:right;}.clear{clear:both;}
+.italic{font-style: italic;}
+.margin-top10{margin-top:10px;}
+.margin-left10{margin-left:10px;}
+.margin-right10{margin-right:10px;}
+.margin-bottom10{margin-bottom:10px;}
+.noBorder{border:0 !important;}
+.gap10{height:10px;display: block;}
+.gap20{height:20px;display: block;}
+.gap30{height:30px;display: block;}
+.gap40{height:40px;display: block;}
+.gap50{height:50px;display: block;}
+.gap100{height:100px;display: block;}
+.color3AE{color:#258;}
+.inlineBlock{display: inline-block;}.displyBlock{display:block;}.displayInline{display: inline;}
+.border{margin:10px 0;height:0px;border-top:1px #DDD solid;}
+.clearAfter:after,.afterClear:after{content:"";display: block;clear:both;}
+.bg-grey{background:#F7F7F7;}
+.backgroundTransparent{background:transparent !important;}
+a:focus,a:active{outline:none !important;}
+.posAbsolute{position: absolute;}
+.posRelative{position: relative;}
+.posFixed{position: fixed;}
+.posStatic{position: static;}
+i{font-size: inherit !important;}
+.heightAuto{height: auto !important;}
+.widthAuto{width: auto !important;}
+.textEllipsis, .textTruncate{display: inline-block;width: 100%;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.flexCenter{  display: flex;align-items: center;justify-content: center;}
+
+/*General Styles*/
+body,html{height:100%;}
+.admissionHolder{font-family: Tahoma,Geneva,sans-serif;background:#F3F3F3;min-height:100%;overflow-x:hidden;}
+.logoHolder{padding:20px 0;background: #89AB20}
+.notifications,.contentWrapper {background:#FFF;border:1px #EEE solid;padding: 20px;}
+.notifications h1{color:#0086B2;font-size: 20px;margin:5px 0;}
+.pageHeader{color:#0086B2;font-size: 20px;margin:5px 0;border-bottom: 1px #DDD solid;}
+.notificationHolder{margin:20px 0 0 0;}
+.notificationHolder a{color:#0086B2;padding:0 10px;}
+.notificationHolder div{padding:5px;background: #FDFDFD;margin:0;}
+.notificationHolder div:nth-child(even){padding:5px;background: #FAFAFA;}
+.notificationHolder a:hover{text-decoration: underline;}
+.newNotification{background:#FFE18C;padding: 4px 8px;border-radius:4px;color:#835B17;}
+.logoHolder{text-align: center;}
+.logoHolder img{display: inline-block;}
+.newNotification img{height:10px;position: relative;top:-2px}
+.logoHolder a {display: inline-block;padding: 7px;background: none repeat scroll 0% 0% #FFF;border-radius: 50%;margin-left: 15px;}
+.footerLinks{margin-top:25px;padding-top:25px;border-top:1px #DDD solid;text-align: center;}
+.footerLinks a{color:#FFF;display: inline-block;margin:0 10px;background: #0086B2}
+.footerLinks a:focus {color:#FFF;}
+.footerLinks a:hover{color:#FFF;background: #006080}
+.printAppl{background:#EEE;border:1px #AAA solid;padding: 10px;text-align: center;margin-top:20px;}
+.printAplLink{font-size: 18px;margin-bottom: 12px;display: inline-block;}
+.Notifooter{background: #89AB20;padding: 10px;text-align: center;color:#FFF;}
+.btn {border-radius:0;}
+.btn:active:focus,.btn:active,.btn:focus {outline:none;}
+.btn-custom {background:#89AB20;color:#FFF;}
+.btn-custom:hover {background:#6F8C16; color: #FFF;box-shadow: none;}
+.btn-custom:focus {color:#FFF;box-shadow: none;background:#6F8C16;}
+.form-control {box-shadow: none;border-radius:0;border-color:#AAA;}
+.form-control:focus {border-color:#89AB20;box-shadow: none;}
+.control-label {color:#777;}
+.panel {border-radius: 0;box-shadow: none;}
+.navigationwrap nav.navbar {border-radius: 0;background:#FFF;border-top:none;}
+.navigationwrap .navbar-default .navbar-nav > .active > a {background:#89AB20;color:#FFF;}
+.navigationwrap .navbar-default .navbar-nav > li > a:hover {background: none repeat scroll 0% 0% #DDF596;color: #5D5D5D;}
+.welcomemessage {padding: 15px;}
+.navbar-default .navbar-nav > li.logoutBtn a {background:#89AB20;color:#FFF;padding-top: 7px;padding-bottom: 7px;margin-top: 8px;color: #FFF;}
+.navbar-default .navbar-nav > li.logoutBtn a:hover {background:#6F8C16;color:#FFF;}
+.navigationwrap .navbar-default .navbar-nav > li.active a:hover {background:#89AB20;color:#FFF;}
+.pagination > li > a {border-radius: 0 !important;}
+.formElemHolder {padding:8px 0;}
+.divider {background-color: #e5e5e5; height: 1px; margin: 9px 0; overflow: hidden;}
+.marginTopBottom10{margin-top:10px; margin-bottom:10px;}
+.noPaddingSide {padding-left: 0 !important;padding-right: 0 !important;}
+::-webkit-input-placeholder {color: #CCC;}
+:-moz-placeholder { /* Firefox 18- */color: #CCC;}
+::-moz-placeholder {  /* Firefox 19+ */color: #CCC;}
+:-ms-input-placeholder {color: #CCC;}
+input[placeholder] {color:#AAA}
+.contentWrapper form > .row {margin-bottom: 15px;}
+.cmsContent h2 {color:#0086B2;font-size: 20px;margin:5px 0;margin-top:40px;}
+.cmsContent h4 {color:#555;}
+.cmsContent h2:first-child {margin-top:0;}
+.cmsContent p, .cmsContent ul,.cmsContent ol ,.cmsContent b  {color:#888;font-size: 13px;list-style-position: inside;}
+.cmsContent ul,.cmsContent ol {padding-left: 20px;}
+.bold {font-weight: bold;}
+.regular {font-weight: normal;}
+.cmsContent > ul > li {padding-bottom: 2px;}
+.cmsTable.table td {border:0px #FFF solid;}
+.cmsTable.table {width:auto;font-size: 12px;color:#555;}
+.logoHolder h1 {margin-top: 26px;color: #FFF !important	;margin-right: 15px;}
+
+@media screen and (max-width:768px) {
+	.notificationHolder span{display: block}
+	.notificationHolder a{padding: 0}
+	.notificationHolder .newNotification{display: inline-block;}
+	.footerLinks a {display: inline-block;margin: 1px 0%;width: 48%;text-align: center;}
+}
+.modal-dialog{z-index: 2}
+.modal-backdrop{z-index: 1}

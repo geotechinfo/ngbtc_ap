@@ -12,35 +12,29 @@
 
 <div class="wrapper">
 <div id="instruction" style="">
-    <p class="appNumber">        
-        <span class="app_no">
-            Application Number: <?php echo $application[0]['application_code'];?>
-        </span> 
-    </p>
-     <table class="tbl">
-        <tr>
-            <td width="200" align="left"><img src="<?php echo base_url()?>public/images/logo.png" /></td>
-            <td width="600" align="right">Application Number: <?php echo $application[0]['application_code'];?></td>
-        </tr>
-    </table>
-    <div class="gap"></div>
-    <p>Application No: <b><?php echo $application[0]['application_code'];?></b></p>
-    <p>Applicant Nane: <b><?php echo $application[0]['first_name'];?> <?php echo $application[0]['last_name'];?></b></p>
-    <p>Your Payable Amount: <b>Rs. 350</b></p>
-    <p>
-        You have to pay <b>Rs.350.</b> in our <b>SBI Account.</b><br>
-        Our Bank Details:<br>
-        Branch : <b>SBI Nihati branch</b><br>
-        A/c No : <b>11051319403</b><br>
-        IFSC No: <b>SBIN0001823</b><br>
-        MICR : <b>700002235</b>
-
-    </p>
-    <div class="gap"></div>
-    <p>Please Mention the "<b>Application No</b>" in deposite form at the time of payment.</p>
-    <div class="gap"></div>
-    <p>Please Update your payment details. <a href="<?php echo base_url()?>website/payment" target="_blank">Click here to update</a></p>
+	<p>Thank you for applying for admission at ngbtc.in. Your application number is: <b><?php echo $application[0]['application_code'];?></b></p>
+    <p>Please note your application number for future correspondence regarding your application.</p>
+    <p>&nbsp;</p>
+    <p>For making your application eligible for the merit list you will have to make to make a <b>non-refundable deposit of Rs.350/- only within 4 working days</b> from the date of online submission of your application. The details of the payment required is as follows:</p>
+    <p><b>Amount : Rs. 350/-</b></p>
+    <p><b>Payable to (Account Name) : Nandalal Ghosh B.T College</b></p>
+    <p><b>Account Number : 1000022456789</b></p>
+    <p><b>Bank : State Bank of India</b></p>
+    <p><b>Branch : Narayanpur</b></p>
+    <p><b>IFSC Code : SBIIN0098</b></p>
+    <p><b>Payable within : 4 working days from the application date</b></p>
+    <p>&nbsp;</p>
+    <p>Please note that after you have made the deposit , you will need to update the payment details in the ngbtc.in website by clicking the <b>Update Application Payment Details</b> button and entering the details of your payment in the payment details form and updating the information by clicking the update button.</p>
+    <p>&nbsp;</p>
+    <strong>IMPORTANT :</strong>
+    <ol>
+        <li>Only payments made within 4 working days of application submission can be updated</li>
+        <li>Only applications with  valid payment information updated in the system will be considered for merit list</li>
+        <li>Only completed application with valid information will be considered for merit list</li>
+        <li>A place in the merit list indicates provisional eligibility for admission - final admission is subject to verification of provided information in the application form , payment of admission fees and other relevant criteria fulfillment by the applicant.</li>
+    </ol>
 </div>
+
 <div id="application">
 <?php
     $title['mp'] ='MP.'; 

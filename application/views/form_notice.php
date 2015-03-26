@@ -3,7 +3,9 @@
 
 <?php
 if (isset($error)){
-    echo $error;
+	echo "<div class='error alert-danger'>";
+    echo "<p>".$error."</p>";
+	echo "</div>";
 }
 $verror =  validation_errors();
 if($verror!=''){

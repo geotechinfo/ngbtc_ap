@@ -1,7 +1,7 @@
 
 <div class="contentWrapper">
 <p>
-    <span class="text-danger">** Upload file size should be under 2mb</span>
+    <span class="text-danger">File upload is not mandatory.</span>
 </p>
 <div class="pageHeader"><?php if($noticeid != ""){ ?>Update Admission<?php }else{ ?>Admission Form<?php } ?></div>
 

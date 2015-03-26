@@ -1,13 +1,16 @@
 
 <?php echo form_open('admin/login'); ?>
-	<?php
-    echo "<div class='error'>";
-    if (isset($error)) {
-        echo $error;
-    }
-    echo validation_errors();
-    echo "</div>";
-    ?>
+<?php
+if (isset($error)) {
+	echo "<div class='error alert-danger' style='width:555px; margin:0px auto 10px auto;'>";
+	echo "<p>".$error."</p>";
+	echo "</div>";
+}
+$verror =  validation_errors();
+if($verror!=''){
+	echo "<div class='alert alert-danger' style='width:555px; margin:0px auto 10px auto;'>".$verror."</div>";
+}
+?>
 
 
 <div class="row">
